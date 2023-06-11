@@ -1,8 +1,10 @@
-<ActionBar title="First App" backgroundColor="#b2b2b2">
-</ActionBar>
-<AbsoluteLayout width="210" height="210" backgroundColor="#b2b2b2">
-    <Label text="10, 10" left="10" top="10" width="90" height="90" backgroundColor="#d5f4e6"></Label>
-    <Label text="110, 10" left="110" top="10" width="90" height="90" backgroundColor="#618685"></Label>
-    <Label text="110, 110" left="110" top="110" width="90" height="90" backgroundColor="#80ced6"></Label>
-    <Label text="10, 110" left="10" top="110" width="90" height="90" backgroundColor="#fefbd8"></Label>
-</AbsoluteLayout>
+<ActionBar title="First App"></ActionBar>
+<DatePicker year="1980" month="4" day="20"
+    [minDate]="minDate" [maxDate]="maxDate"
+    (dateChange)="onDateChanged($event)" 
+    (dayChange)="onDayChanged($event)" 
+    (monthChange)="onMonthChanged($event)" 
+    (yearChange)="onYearChanged($event)" 
+    (loaded)="onDatePickerLoaded($event)"
+    verticalAlignment="center">
+</DatePicker>

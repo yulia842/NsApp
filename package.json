@@ -14,6 +14,7 @@
     "@angular/router": "~15.2.0",
     "@nativescript/angular": "^15.0.0",
     "@nativescript/core": "~8.5.0",
+    "@nativescript/datetimepicker": "^2.1.13",
     "@nativescript/theme": "~3.0.2",
     "rxjs": "~7.6.0",
     "zone.js": "~0.13.0"
