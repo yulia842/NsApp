@@ -1,10 +1,5 @@
 <ActionBar title="First App"></ActionBar>
-<DatePicker year="1980" month="4" day="20"
-    [minDate]="minDate" [maxDate]="maxDate"
-    (dateChange)="onDateChanged($event)" 
-    (dayChange)="onDayChanged($event)" 
-    (monthChange)="onMonthChanged($event)" 
-    (yearChange)="onYearChanged($event)" 
-    (loaded)="onDatePickerLoaded($event)"
-    verticalAlignment="center">
-</DatePicker>
+<StackLayout>
+    <Label class="h1" [text]="myName"></Label>
+    <Button class="-primary" text="Click Me" (tap)="btnClicked($event)"></Button>
+</StackLayout>
