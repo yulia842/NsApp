@@ -18,7 +18,7 @@ export class ItemsComponent implements OnInit {
     this.myName = "Yulia";
   }
   btnClicked(evt){
-    console.log(evt)
+    //console.log(evt)
     console.log("Button Clicked")
   }
 }
